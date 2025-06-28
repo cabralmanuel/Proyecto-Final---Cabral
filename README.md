@@ -1,1 +1,1 @@
-# Proyecto-Final---Cabral
+Mi proyecto final trata sobre un E-commerce de vinos. Para esta entrega final construí un Array de distintos productos de vinos, luego usé las funciones de orden superior (forEach, filter, find, map) para darle orden y coherencia. Además, pude plasmar lo programado en el DOM a través de la hoja de estilos, pero también enlazando los elementos HTML con JavaScript. Para esto último utilice los eventos. 
