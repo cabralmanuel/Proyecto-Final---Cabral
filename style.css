@@ -46,6 +46,9 @@ h1{
 .highlight .card4{
     background-color: rgba(245, 245, 220, 0.534);
 }
+.highlight p{
+    color: black;
+}
 .contenedorCard{
     display: flex;
     justify-content: center;

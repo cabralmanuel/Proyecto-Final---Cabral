@@ -355,3 +355,49 @@ const body = document.getElementById("body");
 document.getElementById("modOscuro").addEventListener("click", function (){
     body.classList.toggle("highlight");
 })
+
+// Estilos a titulos y parrafos //
+
+const tituloPrincipal = document.getElementById("tituloPrincipal");
+tituloPrincipal.style.fontFamily = "Caudex";
+
+const titulo = document.getElementById("titulo");
+titulo.style.fontFamily = "Monaco";
+
+const titulo1 = document.getElementById("titulo1");
+titulo1.style.fontFamily = "Monaco";
+
+const titulo2 = document.getElementById("titulo2");
+titulo2.style.fontFamily = "Monaco";
+
+const titulo3 = document.getElementById("titulo3");
+titulo3.style.fontFamily = "Monaco";
+
+const titulo4 = document.getElementById("titulo4");
+titulo4.style.fontFamily = "Monaco";
+
+const parrafo = document.getElementById("parrafo");
+
+parrafo.style.fontStyle = "italic";
+parrafo.style.fontFamily = "zapf chancery";
+
+const parrafo1 = document.getElementById("parrafo1");
+
+parrafo1.style.fontStyle = "italic";
+parrafo1.style.fontFamily = "zapf chancery";
+
+const parrafo2 = document.getElementById("parrafo2");
+
+parrafo2.style.fontStyle = "italic";
+parrafo2.style.fontFamily = "zapf chancery";
+
+const parrafo3 = document.getElementById("parrafo3");
+
+parrafo3.style.fontStyle = "italic";
+parrafo3.style.fontFamily = "zapf chancery";
+
+const parrafo4 = document.getElementById("parrafo4");
+
+parrafo4.style.fontStyle = "italic";
+parrafo4.style.fontFamily = "zapf chancery";
+
