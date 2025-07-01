@@ -401,3 +401,34 @@ const parrafo4 = document.getElementById("parrafo4");
 parrafo4.style.fontStyle = "italic";
 parrafo4.style.fontFamily = "zapf chancery";
 
+// Buscador //
+
+const inputBusqueda = document.getElementById("inputBusqueda");
+const listaVinos = document.getElementById("listaVinos");
+
+function mostrarVinos(vinos) {
+    listaVinos.innerHTML = "";
+    vinos.forEach(vino => {
+        const li = document.createElement("li");
+        li.textContent = `${vino.nombre} - ${vino.cepa} - ${vino.bodega} - $${vino.precio} - ${vino.origen}`;
+        listaVinos.appendChild(li);
+    });
+}
+
+function buscarVinos() {
+    const textoBusqueda = inputBusqueda.value.trim().toLowerCase();
+
+    if(textoBusqueda === ""){
+        listaVinos.innerHTML = ""; 
+        return;
+    }
+    // Filtra por nombre, bodega, cepa u origen
+    const resultado = productos.filter(vino =>
+        vino.nombre.toLowerCase().includes(textoBusqueda) ||
+        vino.bodega.toLowerCase().includes(textoBusqueda) ||
+        vino.cepa.toLowerCase().includes(textoBusqueda) ||
+        vino.origen.toLowerCase().includes(textoBusqueda)
+    );
+
+    mostrarVinos(resultado);
+}

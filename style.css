@@ -274,3 +274,9 @@ p{
 .oscuro button:hover{
     background-color: black;
 }
+#inputBusqueda{
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid beige;
+    margin-left: 50px;
+}
